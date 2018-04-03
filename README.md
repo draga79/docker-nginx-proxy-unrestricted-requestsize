@@ -7,6 +7,8 @@ Derived docker containers from [jwilder/nginx-proxy], Alpine branch, with additi
 client_max_body_size 0;
 ```
 
+The *gzip* branch (dragas/nginx-proxy:gzip) also enables gzip compression.
+
 For information on how to use please see [jwilder/nginx-proxy].
 
 [jwilder/nginx-proxy]: https://hub.docker.com/r/jwilder/nginx-proxy
